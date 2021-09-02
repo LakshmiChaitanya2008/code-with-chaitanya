@@ -29,42 +29,4 @@ export default {
 };
 </script>
 
-<style>
-:root {
-  --primary-color: #00a672;
-  --font-color: #cbd5c9;
-}
-
-html {
-  height: 100%;
-  scroll-behavior: smooth;
-}
-
-body {
-  font-family: "Inter", sans-serif;
-  background: #1a202c;
-  color: var(--font-color);
-  border: 10px solid var(--primary-color);
-  min-height: 100%;
-  margin: 0;
-  line-height: 1.5;
-  box-sizing: border-box;
-}
-
-a {
-  color: var(--font-color);
-  text-decoration: none;
-}
-
-.blogs .recent-blogs-title {
-  text-align: center;
-}
-
-.blog {
-  border-top: 1px solid var(--primary-color);
-  border-bottom: 1px solid var(--primary-color);
-  margin: 0 auto;
-  width: 75%;
-  padding: 10px;
-}
-</style>
+<style></style>
