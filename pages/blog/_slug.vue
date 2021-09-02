@@ -23,14 +23,12 @@ export default {
 .main {
   width: 80vw;
   margin: 0 auto;
-  overflow: auto;
 }
 
 .post-title {
   text-align: center;
   font-size: 45px;
   line-height: 1.4em;
-  /* padding: 1em 0; */
   font-family: "Stylish";
 }
 

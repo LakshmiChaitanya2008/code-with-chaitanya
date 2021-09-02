@@ -23,6 +23,10 @@ export default {
       {
         rel: "stylesheet",
         href: "https://fonts.googleapis.com/css2?family=Stylish&display=swap"
+      },
+      {
+        rel: "preconnect",
+        href: "https://fonts.gstatic.com"
       }
     ]
   },
@@ -37,7 +41,7 @@ export default {
   components: true,
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
-  buildModules: [],
+  buildModules: ["nuxt-vite"],
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [

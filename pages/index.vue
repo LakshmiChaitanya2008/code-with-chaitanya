@@ -30,8 +30,6 @@ export default {
 </script>
 
 <style>
-@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
-
 :root {
   --primary-color: #00a672;
   --font-color: #cbd5c9;
@@ -49,7 +47,6 @@ body {
   border: 10px solid var(--primary-color);
   min-height: 100%;
   margin: 0;
-  max-width: 100%;
   line-height: 1.5;
   box-sizing: border-box;
 }
@@ -61,7 +58,6 @@ a {
 
 .blogs .recent-blogs-title {
   text-align: center;
-  /* margin-top: 50px; */
 }
 
 .blog {
