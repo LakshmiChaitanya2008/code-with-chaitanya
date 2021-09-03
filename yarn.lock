@@ -7766,6 +7766,11 @@
   "resolved" "https://registry.npmjs.org/pretty-time/-/pretty-time-1.1.0.tgz"
   "version" "1.1.0"
 
+"prism-themes@^1.8.0":
+  "integrity" "sha512-pj7A7C9C8juQRFkZHYeApQHdUiak5nkKYlHyWwh7n/b6WjI9KzGtqaGhxUZAIaV1PZ9Z1epJwe41Px3TUGsNJw=="
+  "resolved" "https://registry.npmjs.org/prism-themes/-/prism-themes-1.8.0.tgz"
+  "version" "1.8.0"
+
 "prismjs@^1.23.0":
   "integrity" "sha512-mNPsedLuk90RVJioIky8ANZEwYm5w9LcvCXrxHlwf4fNVSn8jEipMybMkWUyyF0JhnC+C4VcOVSBuHRKs1L5Ow=="
   "resolved" "https://registry.npmjs.org/prismjs/-/prismjs-1.24.1.tgz"
