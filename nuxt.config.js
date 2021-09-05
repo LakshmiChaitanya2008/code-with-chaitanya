@@ -46,7 +46,8 @@ export default {
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
     // https://go.nuxtjs.dev/content
-    "@nuxt/content"
+    "@nuxt/content",
+    "@nuxtjs/pwa"
   ],
 
   // Content module configuration: https://go.nuxtjs.dev/config-content
@@ -59,5 +60,17 @@ export default {
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
-  build: {}
+  build: {},
+
+  pwa: {
+    meta: {
+      title: "Learn with Chaitanya",
+      author: "Lakshmi Chaitanya"
+    },
+    manifest: {
+      name: "Learn with Chaitanya",
+      short_name: "LWC",
+      lang: "en"
+    }
+  }
 };
