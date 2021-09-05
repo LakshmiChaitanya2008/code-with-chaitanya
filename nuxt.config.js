@@ -15,7 +15,7 @@ export default {
       { name: "format-detection", content: "telephone=no" }
     ],
     link: [
-      { rel: "icon", type: "image/x-icon", href: "/javascript.jpg" },
+      { rel: "icon", type: "image/x-icon", href: "/icon.png" },
       {
         rel: "stylesheet",
         href: "https://fonts.googleapis.com/css2?family=Inter&display=swap"
