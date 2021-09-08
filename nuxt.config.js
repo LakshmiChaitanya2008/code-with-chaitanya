@@ -19,14 +19,6 @@ export default {
       {
         rel: "stylesheet",
         href: "https://fonts.googleapis.com/css2?family=Inter&display=swap"
-      },
-      {
-        rel: "stylesheet",
-        href: "https://fonts.googleapis.com/css2?family=Stylish&display=swap"
-      },
-      {
-        rel: "preconnect",
-        href: "https://fonts.gstatic.com"
       }
     ]
   },
@@ -41,7 +33,7 @@ export default {
   components: true,
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
-  buildModules: ["nuxt-vite", "@nuxtjs/pwa"],
+  buildModules: ["nuxt-vite", "@nuxtjs/pwa", "@nuxtjs/google-fonts"],
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
@@ -72,5 +64,14 @@ export default {
       short_name: "LWC",
       lang: "en"
     }
+  },
+
+  googleFonts: {
+    families: {
+      Inter: true,
+      Stylish: true
+    },
+    display: "swap",
+    preconnect: true
   }
 };

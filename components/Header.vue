@@ -1,7 +1,7 @@
 <template>
   <div class="home">
     <h1>
-      <nuxt-link to="/"> LEARN WITH CHAITANYA</nuxt-link>
+      <nuxt-link to="/">LEARN WITH CHAITANYA</nuxt-link>
     </h1>
   </div>
 </template>
