@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Stylish&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+:root {
+  --main-color: #3fb27f;
+  --font-color: #e2e2e2;
+}
+
+html {
+  height: 100%;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #1a202c;
+  color: var(--font-color);
+  border: 5px solid var(--main-color);
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+  line-height: 1.5;
+}
+
+.title {
+  text-align: center;
+  font-family: "Stylish", sans-serif;
+  font-size: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: var(--font-color);
+}
+
+.sub-title {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.posts {
+  display: flex;
+  flex-direction: column;
+}
+
+.post-card {
+  border-top: 1px solid var(--main-color);
+  border-bottom: 1px solid var(--main-color);
+  padding: 5px;
+  padding-bottom: 20px;
+
+  width: 80vw;
+  align-self: center;
+  /* cursor: pointer; */
+}
+
+p {
+  font-size: 17px;
+}
