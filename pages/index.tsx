@@ -11,6 +11,7 @@ const Home = function ({ posts }) {
     <div>
       <Head>
         <title>Code With Chaitanya</title>
+        <meta />
       </Head>
       <h2 className="sub-title">Recent Blog Posts</h2>
 
