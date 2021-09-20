@@ -14,7 +14,7 @@ const Home = function ({ posts }) {
         <meta title="Learn about web development!"></meta>
         <meta
           property="og:image"
-          content="https://www.hostinger.com/tutorials/wp-content/uploads/sites/2/2018/07/what-is-javascript-1280x720.jpg"
+          content="https://s3-eu-west-1.amazonaws.com/sdz-upload/prod/upload/js2.jpg"
         />
       </Head>
       <h2 className="sub-title">Recent Blog Posts</h2>
