@@ -11,11 +11,7 @@ const Home = function ({ posts }) {
     <div>
       <Head>
         <title>Code With Chaitanya</title>
-        <meta title="Learn about web development!"></meta>
-        <meta
-          property="og:image"
-          content="https://s3-eu-west-1.amazonaws.com/sdz-upload/prod/upload/js2.jpg"
-        />
+        <meta property="og:title" content="Code with Chaitanya"></meta>
       </Head>
       <h2 className="sub-title">Recent Blog Posts</h2>
 
