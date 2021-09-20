@@ -7,7 +7,7 @@ function MyApp({ Component, pageProps }) {
     <>
       <Link href="/">
         <a className="title">
-          <h1>Learn With Chaitanya</h1>
+          <h1>Code With Chaitanya</h1>
         </a>
       </Link>
 

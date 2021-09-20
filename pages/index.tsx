@@ -10,7 +10,7 @@ const Home = function ({ posts }) {
   return (
     <div>
       <Head>
-        <title>Learn With Chaitanya</title>
+        <title>Code With Chaitanya</title>
       </Head>
       <h2 className="sub-title">Recent Blog Posts</h2>
 
