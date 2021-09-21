@@ -170,4 +170,4 @@ Let me explain all of this code.
 
 # Conclusion
 
-Try to add more features to the blog. Make the blog design simple and elegant. See you in my next article bye 👋.
+Try to add more features to the blog. Make the blog design simple and elegant. The reason I don't explain most is that you need to understand the code by yourself it's a best skill for developers. See you in my next article bye 👋.
