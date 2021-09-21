@@ -8,7 +8,7 @@ import { useEffect } from "react";
 import hljs from "highlight.js";
 import Head from "next/head";
 const Post = function ({ content, data }) {
-  useEffect(() => hljs.initHighlighting());
+  useEffect(() => hljs.highlightAll());
 
   return (
     <>
@@ -26,7 +26,7 @@ const Post = function ({ content, data }) {
   );
 };
 export default Post;
-``;
+
 export const getStaticPaths: GetStaticPaths = function () {
   let files = fs
     .readdirSync(path.join("posts"))

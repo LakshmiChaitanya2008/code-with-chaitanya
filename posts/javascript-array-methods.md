@@ -1,7 +1,7 @@
 ---
 title: Javascript High Order Array methods
 description: Learn about the most important and confusing topic in javascript
-date: September 20, 2021
+# date: September 20, 2021
 ---
 
 Most of the time when you are working with data you will use an array. Arrays are the most used data structures for storing data in javascript. we have some common tasks like looping through an array or filtering it or do something on one element n stuff, so to do this we use a forloop which is fine for smaller code. but when your code increases the code may become messy. So the solution for this problem is using High order array methods.
