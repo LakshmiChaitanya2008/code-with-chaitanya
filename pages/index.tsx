@@ -48,3 +48,7 @@ export const getStaticProps: GetStaticProps = function () {
     },
   };
 };
+
+export const config = {
+  unstable_runtimeJS: false,
+};

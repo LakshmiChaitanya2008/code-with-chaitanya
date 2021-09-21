@@ -17,13 +17,8 @@ All Methods:
 
 # `forEach`
 
-This is the simplest one
-
-It is similar to a for loop.
-
-It just loops through the array and run the given callback for each element.
-
-The first parameter of the callback is the element and the second one is the index and the third one is the array itself
+This is the simplest one. It is similar to a for loop.
+It just loops through the array and run the given callback for each element. The first parameter of the callback is the element and the second one is the index and the third one is the array itself.
 
 ```js
 const arr = [1, 2, 3, 4, 5, 6, 7];
@@ -74,13 +69,13 @@ const total = arr.reduce((acc, num) => {
 console.log(total);
 ```
 
-Here the accumulator is `0`
+- Here the accumulator is `0`
 
-at the first iteration the num is `1`, so `0 + 1 = 1`
+- At the first iteration the num is `1`, so `0 + 1 = 1`
 
-at the second iteration the num is `2`, so `1 + 2 = 3` and so on...
+- At the second iteration the num is `2`, so `1 + 2 = 3` and so on...
 
-finnaly the value is `28`
+Finnaly the value is `28`
 
 # `filter`
 
@@ -98,13 +93,13 @@ const even = arr.filter((num) => {
 console.log(even);
 ```
 
-```bash
-[2, 4, 6]
+```js
+[2, 4, 6];
 ```
 
-At the first iteration the number is 1, so 1 % 2 is not equal to 0 so its not added to the array.
+- At the first iteration the number is `1`, so `1 % 2` is not equal to `0`, so its not added to the array.
 
-At the first iteration the number is 2, so 2 % 2 is 0 so it will be added to the array.
+- At the first iteration the number is `2`, so `2 % 2` is `0`, so it will be added to the array.
 
 and so on...
 
