@@ -18,7 +18,7 @@ const Home = function ({ posts }) {
         />
         <meta name="keywords" content="javascript, blog, code-with-chaitanya" />
         <meta name="robots" content="index, follow" />
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
         <meta name="language" content="English" />
         <meta name="author" content="Lakshmi Chaitanya" />
       </Head>
