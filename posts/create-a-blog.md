@@ -164,10 +164,6 @@ Let me explain all of this code.
 - And we are using marked to convert our markdown to html and returning that.
 - And using that in our markup.
 
-<video controls="true" allowfullscreen="true" width="800" >
-    <source src="/blog.webm" type="video/webm" />
- </video>
-
 # Conclusion
 
 Try to add more features to the blog. Make the blog design simple and elegant. The reason I don't explain most is that you need to understand the code by yourself it's a best skill for developers. See you in my next article bye 👋.
