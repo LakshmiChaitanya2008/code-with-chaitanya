@@ -1,6 +1,17 @@
 import Link from "next/link";
 
-const Posts = function ({ posts }) {
+interface PostsProps {
+  posts: {
+    data: {
+      title: string;
+      description: string;
+    };
+    content: string;
+    slug: string;
+  }[];
+}
+const Posts = function ({ posts }: PostsProps) {
+  posts = posts.reverse();
   return (
     <div className="posts">
       {posts.map((cur, i) => (
